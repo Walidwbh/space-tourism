@@ -1,0 +1,32 @@
+/* begin home section */
+.home {
+    background: no-repeat url("../assets/home/background-home-desktop.jpg");
+    background-size: cover; 
+    background-position: 100%;
+    /* height: 100vh; */
+}
+.home .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: calc(100vh - 136px);
+    gap: 50px;
+}
+.home .container .content {
+    flex: 1;
+}
+.home .container .explore {
+    width: 274px;
+    height: 274px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white-color);
+    border-radius: 50%;
+}
+/* MEDIA QUERIES */
+@media (max-width: 1199px) {
+    .home {
+        background-image: no-repeat url("../assets/home/background-home-tablet.jpg");
+    }
+}
