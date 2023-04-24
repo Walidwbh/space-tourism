@@ -3,7 +3,7 @@
     background: no-repeat url("../assets/home/background-home-desktop.jpg");
     background-size: cover; 
     background-position: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .home .container {
     display: flex;

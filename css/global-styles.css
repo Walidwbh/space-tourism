@@ -13,7 +13,7 @@
 }
 body {
     font-family: 'Bellefair', serif;
-    height: 100vh;
+    min-height: 100vh;
 }
 /* begin global rules */
 h1 {
