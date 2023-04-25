@@ -153,6 +153,9 @@
     .destination {
         background-image: url("../assets/destination/background-destination-mobile.jpg");
     }
+    .destination .tab-content img {
+        width: 170px;
+    }
     .destination .tab-content .data {
         flex-direction: column;
         margin-bottom: 20px;
