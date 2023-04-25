@@ -13,7 +13,7 @@
 }
 body {
     font-family: 'Bellefair', serif;
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
 /* begin global rules */
 h1 {
@@ -29,17 +29,38 @@ h4 {
     font-size: 32px;
 }
 h5 {
+    font-family: 'Barlow Condensed', sans-serif;
     font-size: 28px;
     letter-spacing: 4.75px;
 }
+.barlow {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.fs-28 {
+    font-size: 28px;
+}
+.fs-14 {
+    font-size: 14px;
+    letter-spacing: 2.35px;
+}
 ul {
+    font-family: 'Barlow Condensed', sans-serif;
     list-style: none;
     margin: 0;
     padding: 0;
+    font-size: 16px;
+    letter-spacing: 2.7px;
 }
 a {
     text-decoration: none;
     color: inherit;
+}
+.container .title {
+    color: var(--white-color);
+}
+
+.container .title span {
+    color: gray;
 }
 /* begin navbar */
 .nav {
@@ -65,8 +86,6 @@ ul.navbar {
     align-items: center;
     padding: 0 150px;
     text-transform: uppercase;
-    font-size: 16px;
-    letter-spacing: 2.7px;
     height: 96px;
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(16px);
