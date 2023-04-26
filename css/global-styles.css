@@ -7,6 +7,7 @@
 *,
 *::before,
 *::after {
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -32,6 +33,9 @@ h5 {
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 28px;
     letter-spacing: 4.75px;
+}
+p {
+    line-height: 1.6;
 }
 .barlow {
     font-family: 'Barlow Condensed', sans-serif;
@@ -198,4 +202,18 @@ ul.navbar li:hover::after {
 .c-white {
     color: var(--white-color);
 }
+.c-gray {
+    color: gray;
+}
+.planet {
+    animation: rotation 20s linear infinite;
+}
 /* end custom classes */
+/* animations */
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    } to {
+        transform: rotate(360deg);
+    }
+}

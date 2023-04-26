@@ -22,5 +22,6 @@ $(document).ready(
             var selectedTab = $(this).find('a').attr("href");
             $(selectedTab).fadeIn();
         })
+        // slider
     }
 )
