@@ -14,7 +14,7 @@
 }
 body {
     font-family: 'Bellefair', serif;
-    /* min-height: 100vh; */
+    min-height: 100vh;
 }
 /* begin global rules */
 h1 {
@@ -43,6 +43,9 @@ p {
 .fs-28 {
     font-size: 28px;
 }
+.fs-16 {
+    font-size: 16px;
+}
 .fs-14 {
     font-size: 14px;
     letter-spacing: 2.35px;
@@ -70,8 +73,9 @@ a {
 .nav {
     display: flex ;
     align-items: center;
-    margin-top: 40px;
-    margin-left: 55px;
+    /* margin-top: 40px;
+    margin-left: 55px; */
+    padding: 40px 0 0 55px;
 }
 .nav hr {
     flex: 1;
